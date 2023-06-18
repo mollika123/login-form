@@ -1,0 +1,79 @@
+*{
+  padding: 0px;
+  maegin:0px;
+}
+body{ 
+      font-family: 'Roboto', sans-serif;
+       font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Poppins', sans-serif;
+  font-size:14px ;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+.loginform{
+   margin: 80px auto;
+  width:500px;
+  height:600px;
+  background:#14668B ;
+ padding: 80px;
+
+}
+.avater{
+  width:100%;
+  text-align: center;
+}
+.avater img{
+  text-align: center;
+ 
+  padding: 10px 0px 0px 40px;
+}
+.loginform h1{
+  text-align: center;
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+.form-control{
+  width:100%;
+  margin: 0px 0px 10px;
+}
+ .form-control label{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  display:block;
+
+}
+.form-group{
+  width:90%;
+  padding: 10px;
+  font-size: 14px;
+  color:gray;
+  font-weight: 500;
+  line-height: 24px;
+  background: black;
+  border:2px solid gray;
+  border-radius: 10px;
+} 
+.btn-primery{
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  color:white;
+  background:gray;
+  border: 2px solid black;
+  transition: 2s ;
+  border-radius: 10px;
+  margin: 0px 0px 15px;
+}
+.btn-primery:hover{
+  color:#14668B;
+  background: black;
+  cursor: pointer;
+}
